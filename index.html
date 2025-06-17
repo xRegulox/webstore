@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPAF - ARK Evolved Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-dragon"></i>
+                <span>OPAF</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-es="Inicio">Home</a></li>
+                <li><a href="#ranks" class="nav-link" data-en="VIP Ranks" data-es="Rangos VIP">VIP Ranks</a></li>
+                <li><a href="#points" class="nav-link" data-en="Points" data-es="Puntos">Points</a></li>
+                <li><a href="#boost" class="nav-link" data-en="Discord Boost" data-es="Boost Discord">Discord Boost</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a></li>
+            </ul>
+            <div class="nav-language">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="OPAF">OPAF</span>
+                    <span class="subtitle">ARK EVOLVED SERVER</span>
+                </h1>
+                <p class="hero-description" 
+                   data-en="Experience the ultimate ARK adventure with exclusive VIP ranks, enhanced gameplay, and premium features designed for legends."
+                   data-es="Experimenta la aventura definitiva de ARK con rangos VIP exclusivos, jugabilidad mejorada y características premium diseñadas para leyendas.">
+                    Experience the ultimate ARK adventure with exclusive VIP ranks, 
+                    enhanced gameplay, and premium features designed for legends.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#ranks" class="btn btn-primary">
+                        <i class="fas fa-crown"></i>
+                        <span data-en="Explore VIP Ranks" data-es="Explorar Rangos VIP">Explore VIP Ranks</span>
+                    </a>
+                    <a href="#points" class="btn btn-secondary">
+                        <i class="fas fa-coins"></i>
+                        <span data-en="Get Points" data-es="Obtener Puntos">Get Points</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ark-logo">
+                    <i class="fas fa-dragon"></i>
+                    <div class="rotating-ring"></div>
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- VIP Ranks Section -->
+    <section id="ranks" class="ranks-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="VIP Ranks" data-es="Rangos VIP">VIP Ranks</h2>
+                <p class="section-subtitle" data-en="Choose your path to greatness" data-es="Elige tu camino hacia la grandeza">Choose your path to greatness</p>
+            </div>
+            
+            <div class="ranks-grid">
+                <!-- VIP Rank -->
+                <div class="rank-card" data-rank="vip">
+                    <div class="rank-header">
+                        <div class="rank-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="rank-title">VIP</h3>
+                        <div class="rank-badge">PERMANENT RANK</div>
+                    </div>
+                    <div class="rank-features">
+                        <div class="feature">
+                            <i class="fas fa-arrow-up"></i>
+                            <span data-en="300 Points every 15min" data-es="300 Puntos cada 15min">300 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span data-en="Exclusive Permanent Rank" data-es="Rango Permanente Exclusivo">Exclusive Permanent Rank</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span data-en="5,000 Bonus Points (24h after wipe)" data-es="5,000 Puntos Bonus (24h después del wipe)">5,000 Bonus Points (24h after wipe)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-store"></i>
+                            <span data-en="VIP+ Shop Access" data-es="Acceso a Tienda VIP+">VIP+ Shop Access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-expand"></i>
+                            <span data-en="Fill Range: 45 foundations" data-es="Rango de Llenado: 45 fundaciones">Fill Range: 45 foundations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-magic"></i>
+                            <span data-en="/transfergun Command" data-es="Comando /transfergun">/transfergun Command</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sword"></i>
+                            <span data-en="Exclusive PVPRank Kit" data-es="Kit PVPRank Exclusivo">Exclusive PVPRank Kit</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dna"></i>
+                            <span data-en="/mutate Radius: 10 foundations" data-es="Radio /mutate: 10 fundaciones">/mutate Radius: 10 foundations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <span data-en="2x Voting Power" data-es="2x Poder de Voto">2x Voting Power</span>
+                        </div>
+                    </div>
+                    <div class="rank-pricing">
+                        <div class="price-option">
+                            <span class="price-label" data-en="Monthly" data-es="Mensual">Monthly</span>
+                            <span class="price" data-price="vip-monthly"></span>
+                        </div>
+                        <div class="price-option featured">
+                            <span class="price-label" data-en="Permanent" data-es="Permanente">Permanent</span>
+                            <span class="price" data-price="vip-permanent"></span>
+                            <span class="price-badge" data-en="Best Value" data-es="Mejor Valor">Best Value</span>
+                        </div>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MVP Rank -->
+                <div class="rank-card" data-rank="mvp">
+                    <div class="rank-header">
+                        <div class="rank-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3 class="rank-title">MVP</h3>
+                        <div class="rank-badge">PERMANENT RANK</div>
+                    </div>
+                    <div class="rank-features">
+                        <div class="feature">
+                            <i class="fas fa-arrow-up"></i>
+                            <span data-en="450 Points every 15min" data-es="450 Puntos cada 15min">450 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span data-en="Exclusive Permanent Rank" data-es="Rango Permanente Exclusivo">Exclusive Permanent Rank</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span data-en="10,000 Bonus Points (24h after wipe)" data-es="10,000 Puntos Bonus (24h después del wipe)">10,000 Bonus Points (24h after wipe)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-store"></i>
+                            <span data-en="VIP+ Shop Access" data-es="Acceso a Tienda VIP+">VIP+ Shop Access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dragon"></i>
+                            <span data-en="FREE Level 450 Giga + Tek Costume" data-es="Giga Nivel 450 GRATIS + Traje Tek">FREE Level 450 Giga + Tek Costume</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-expand"></i>
+                            <span data-en="Fill Range: 50 foundations" data-es="Rango de Llenado: 50 fundaciones">Fill Range: 50 foundations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sword"></i>
+                            <span data-en="Superior PVPRank Kit" data-es="Kit PVPRank Superior">Superior PVPRank Kit</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dna"></i>
+                            <span data-en="/mutate Radius: 12 foundations (25min cooldown)" data-es="Radio /mutate: 12 fundaciones (25min cooldown)">/mutate Radius: 12 foundations (25min cooldown)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <span data-en="2x Voting Power" data-es="2x Poder de Voto">2x Voting Power</span>
+                        </div>
+                    </div>
+                    <div class="rank-pricing">
+                        <div class="price-option">
+                            <span class="price-label" data-en="Monthly" data-es="Mensual">Monthly</span>
+                            <span class="price" data-price="mvp-monthly"></span>
+                        </div>
+                        <div class="price-option featured">
+                            <span class="price-label" data-en="Permanent" data-es="Permanente">Permanent</span>
+                            <span class="price" data-price="mvp-permanent"></span>
+                            <span class="price-badge" data-en="Popular" data-es="Popular">Popular</span>
+                        </div>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MVP+ Rank -->
+                <div class="rank-card premium" data-rank="mvp-plus">
+                    <div class="rank-header">
+                        <div class="rank-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="rank-title">MVP+</h3>
+                        <div class="rank-badge">PREMIUM RANK</div>
+                    </div>
+                    <div class="rank-features">
+                        <div class="feature">
+                            <i class="fas fa-arrow-up"></i>
+                            <span data-en="600 Points every 15min" data-es="600 Puntos cada 15min">600 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span data-en="Exclusive Permanent Rank" data-es="Rango Permanente Exclusivo">Exclusive Permanent Rank</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span data-en="15,000 Bonus Points (24h after wipe)" data-es="15,000 Puntos Bonus (24h después del wipe)">15,000 Bonus Points (24h after wipe)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-store"></i>
+                            <span data-en="VIP+ Shop Access" data-es="Acceso a Tienda VIP+">VIP+ Shop Access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dragon"></i>
+                            <span data-en="FREE Level 450 Giga + Tek Costume" data-es="Giga Nivel 450 GRATIS + Traje Tek">FREE Level 450 Giga + Tek Costume</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tag"></i>
+                            <span data-en="Custom Tag Display" data-es="Mostrar Etiqueta Personalizada">Custom Tag Display</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-expand"></i>
+                            <span data-en="Fill Range: 55 foundations" data-es="Rango de Llenado: 55 fundaciones">Fill Range: 55 foundations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sword"></i>
+                            <span data-en="Superior PVPRank Kit" data-es="Kit PVPRank Superior">Superior PVPRank Kit</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dna"></i>
+                            <span data-en="/mutate Radius: 14 foundations (20min cooldown)" data-es="Radio /mutate: 14 fundaciones (20min cooldown)">/mutate Radius: 14 foundations (20min cooldown)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <span data-en="3x Voting Power" data-es="3x Poder de Voto">3x Voting Power</span>
+                        </div>
+                    </div>
+                    <div class="rank-pricing">
+                        <div class="price-option">
+                            <span class="price-label" data-en="Monthly" data-es="Mensual">Monthly</span>
+                            <span class="price" data-price="mvp-plus-monthly"></span>
+                        </div>
+                        <div class="price-option featured">
+                            <span class="price-label" data-en="Permanent" data-es="Permanente">Permanent</span>
+                            <span class="price" data-price="mvp-plus-permanent"></span>
+                            <span class="price-badge" data-en="Premium" data-es="Premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MVP Ultra Rank -->
+                <div class="rank-card ultra" data-rank="mvp-ultra">
+                    <div class="rank-header">
+                        <div class="rank-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="rank-title">MVP ULTRA</h3>
+                        <div class="rank-badge">ULTIMATE RANK</div>
+                    </div>
+                    <div class="rank-features">
+                        <div class="feature">
+                            <i class="fas fa-arrow-up"></i>
+                            <span data-en="750 Points every 15min" data-es="750 Puntos cada 15min">750 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span data-en="Exclusive Permanent Rank" data-es="Rango Permanente Exclusivo">Exclusive Permanent Rank</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span data-en="25,000 Bonus Points (24h after wipe)" data-es="25,000 Puntos Bonus (24h después del wipe)">25,000 Bonus Points (24h after wipe)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-store"></i>
+                            <span data-en="VIP+ Shop Access" data-es="Acceso a Tienda VIP+">VIP+ Shop Access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dragon"></i>
+                            <span data-en="FREE Level 450 Giga + Tek Costume" data-es="Giga Nivel 450 GRATIS + Traje Tek">FREE Level 450 Giga + Tek Costume</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tag"></i>
+                            <span data-en="Custom Tag Display" data-es="Mostrar Etiqueta Personalizada">Custom Tag Display</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-expand"></i>
+                            <span data-en="Fill Range: 60 foundations" data-es="Rango de Llenado: 60 fundaciones">Fill Range: 60 foundations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sword"></i>
+                            <span data-en="Ultimate PVPRank Kit" data-es="Kit PVPRank Definitivo">Ultimate PVPRank Kit</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dna"></i>
+                            <span data-en="/mutate Radius: 16 foundations (15min cooldown)" data-es="Radio /mutate: 16 fundaciones (15min cooldown)">/mutate Radius: 16 foundations (15min cooldown)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <span data-en="5x Voting Power" data-es="5x Poder de Voto">5x Voting Power</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <span data-en="Exclusive Ultra Benefits" data-es="Beneficios Ultra Exclusivos">Exclusive Ultra Benefits</span>
+                        </div>
+                    </div>
+                    <div class="rank-pricing">
+                        <div class="price-option">
+                            <span class="price-label" data-en="Monthly" data-es="Mensual">Monthly</span>
+                            <span class="price" data-price="mvp-ultra-monthly"></span>
+                        </div>
+                        <div class="price-option featured">
+                            <span class="price-label" data-en="Permanent" data-es="Permanente">Permanent</span>
+                            <span class="price" data-price="mvp-ultra-permanent"></span>
+                            <span class="price-badge" data-en="Ultimate" data-es="Definitivo">Ultimate</span>
+                        </div>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Points Section -->
+    <section id="points" class="points-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Get Points" data-es="Obtener Puntos">Get Points</h2>
+                <p class="section-subtitle" data-en="Enhance your gaming experience with premium points" data-es="Mejora tu experiencia de juego con puntos premium">Enhance your gaming experience with premium points</p>
+            </div>
+            
+            <div class="points-grid">
+                <!-- 2K Points -->
+                <div class="points-card">
+                    <div class="points-header">
+                        <div class="points-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3 class="points-amount">2,000</h3>
+                        <p class="points-label" data-en="Points" data-es="Puntos">Points</p>
+                    </div>
+                    <div class="points-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span data-en="Instant Delivery" data-es="Entrega Instantánea">Instant Delivery</span>
+                        </div>
+                    </div>
+                    <div class="points-pricing">
+                        <span class="points-price" data-price="points-2k"></span>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 5K Points -->
+                <div class="points-card featured">
+                    <div class="points-header">
+                        <div class="points-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="points-amount">5,000</h3>
+                        <p class="points-label" data-en="Points" data-es="Puntos">Points</p>
+                        <div class="popular-badge" data-en="Popular" data-es="Popular">Popular</div>
+                    </div>
+                    <div class="points-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span data-en="Instant Delivery" data-es="Entrega Instantánea">Instant Delivery</span>
+                        </div>
+                    </div>
+                    <div class="points-pricing">
+                        <span class="points-price" data-price="points-5k"></span>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 20K Points -->
+                <div class="points-card">
+                    <div class="points-header">
+                        <div class="points-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="points-amount">20,000</h3>
+                        <p class="points-label" data-en="Points" data-es="Puntos">Points</p>
+                        <div class="value-badge" data-en="Best Value" data-es="Mejor Valor">Best Value</div>
+                    </div>
+                    <div class="points-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span data-en="Instant Delivery" data-es="Entrega Instantánea">Instant Delivery</span>
+                        </div>
+                    </div>
+                    <div class="points-pricing">
+                        <span class="points-price" data-price="points-20k"></span>
+                    </div>
+                    <div class="payment-buttons">
+                        <a href="https://www.paypal.com/paypalme/xsystex" class="payment-btn paypal-btn" target="_blank">
+                            <i class="fab fa-paypal"></i>
+                            <span data-en="PayPal" data-es="PayPal">PayPal</span>
+                        </a>
+                        <a href="http://discord.gg/TtSrqk2k94" class="payment-btn bizum-btn" target="_blank">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Bizum" data-es="Bizum">Bizum</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Boost Section -->
+    <section id="boost" class="boost-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Discord Boost Benefits" data-es="Beneficios de Discord Boost">Discord Boost Benefits</h2>
+                <p class="section-subtitle" data-en="Support our community and get exclusive rewards" data-es="Apoya nuestra comunidad y obtén recompensas exclusivas">Support our community and get exclusive rewards</p>
+            </div>
+            
+            <div class="boost-grid">
+                <!-- Level 1 Boost -->
+                <div class="boost-card">
+                    <div class="boost-header">
+                        <div class="boost-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h3 class="boost-title" data-en="1x Boost" data-es="1x Boost">1x Boost</h3>
+                        <div class="boost-badge" data-en="Community Support" data-es="Apoyo Comunitario">Community Support</div>
+                    </div>
+                    <div class="boost-features">
+                        <div class="feature">
+                            <i class="fas fa-coins"></i>
+                            <span data-en="150 Points every 15min" data-es="150 Puntos cada 15min">150 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tag"></i>
+                            <span data-en="Discord Booster Role" data-es="Rol de Discord Booster">Discord Booster Role</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span data-en="Community Recognition" data-es="Reconocimiento Comunitario">Community Recognition</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Rank lasts until boost expires" data-es="Rango dura hasta que expire el boost">Rank lasts until boost expires</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Level 2 Boost -->
+                <div class="boost-card featured">
+                    <div class="boost-header">
+                        <div class="boost-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h3 class="boost-title" data-en="2x Boost" data-es="2x Boost">2x Boost</h3>
+                        <div class="boost-badge" data-en="Enhanced Support" data-es="Apoyo Mejorado">Enhanced Support</div>
+                    </div>
+                    <div class="boost-features">
+                        <div class="feature">
+                            <i class="fas fa-coins"></i>
+                            <span data-en="200 Points every 15min" data-es="200 Puntos cada 15min">200 Points every 15min</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tag"></i>
+                            <span data-en="Special Discord Role" data-es="Rol Especial de Discord">Special Discord Role</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <span data-en="Priority Support" data-es="Soporte Prioritario">Priority Support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span data-en="Exclusive Perks" data-es="Beneficios Exclusivos">Exclusive Perks</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span data-en="Rank lasts until boost expires" data-es="Rango dura hasta que expire el boost">Rank lasts until boost expires</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+                <p class="section-subtitle" data-en="Get in touch with our team" data-es="Ponte en contacto con nuestro equipo">Get in touch with our team</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Discord -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3 class="contact-title">Discord</h3>
+                    <p class="contact-description" data-en="Join our community server" data-es="Únete a nuestro servidor comunitario">Join our community server</p>
+                    <a href="http://discord.gg/TtSrqk2k94" class="contact-link" data-en="Join Discord" data-es="Unirse a Discord">Join Discord</a>
+                </div>
+
+                <!-- Support -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="contact-title" data-en="Support" data-es="Soporte">Support</h3>
+                    <p class="contact-description" data-en="Need help? Contact support" data-es="¿Necesitas ayuda? Contacta soporte">Need help? Contact support</p>
+                    <a href="http://discord.gg/TtSrqk2k94" class="contact-link" data-en="Get Support" data-es="Obtener Soporte">Get Support</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dragon"></i>
+                    <span>OPAF ARK Server</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-en="Home" data-es="Inicio">Home</a>
+                    <a href="#ranks" data-en="VIP Ranks" data-es="Rangos VIP">VIP Ranks</a>
+                    <a href="#points" data-en="Points" data-es="Puntos">Points</a>
+                    <a href="#boost" data-en="Discord Boost" data-es="Boost Discord">Discord Boost</a>
+                    <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="http://discord.gg/TtSrqk2k94"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="© 2024 OPAF ARK Server. All rights reserved." data-es="© 2024 OPAF ARK Server. Todos los derechos reservados.">© 2024 OPAF ARK Server. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
